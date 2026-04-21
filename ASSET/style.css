@@ -1,0 +1,92 @@
+<style>
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    background: white;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(45deg, blue, cyan);
+    border-radius: 50%;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 25px;
+    color: black;
+    font-weight: 500;
+}
+
+nav a.active {
+    border: 2px solid blue;
+    padding: 5px 10px;
+}
+
+.hero {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #5f2c82, #49a09d);
+}
+
+.card {
+    text-align: center;
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    background: rgba(255,255,255,0.1);
+    color: white;
+}
+
+.profile {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    opacity: 0.9;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 12px 30px;
+    border: none;
+    background: gold;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
